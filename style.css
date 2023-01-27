@@ -315,10 +315,13 @@ font-family: 'Montserrat', sans-serif;
 @media screen and (max-width: 600px) {
 
 html{
-    font-size: 50%;
+    font-size: 60%;
     
 }
-
+body{
+    overflow-y: scroll;
+overflow-x: hidden;
+}
 .top-bar ul li {
     
     margin: .3rem 5rem;
